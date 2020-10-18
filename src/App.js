@@ -39,8 +39,8 @@ const App = () => {
   const getGyms = async () => {
     try{
       const response = await axios.get("http://127.0.0.1:8000/gyms/")
-      console.log(response.data['gyms'])
-      setGyms(response.data['gyms'])
+      console.log(response.data)
+      setGyms(response.data)
       setLoading(false)
     } catch(error){
       console.log("error!")

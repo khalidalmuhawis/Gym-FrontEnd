@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import NewGymModal from "./NewGymModal"
 
 import GymCard from "./GymCard";
 
@@ -17,6 +17,9 @@ const GymList = props => {
       <div className="gyms">
         <h3>Gyms</h3>
         <div className="row">{gymCards}</div>
+        <NewGymModal create={true}  />
+        
+        
       </div>
     );
   };

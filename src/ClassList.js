@@ -17,6 +17,7 @@ const ClassList = props => {
       <div className="authors">
         <h3>Classes</h3>
         <div className="row">{classCards}</div>
+        
       </div>
     );
   };

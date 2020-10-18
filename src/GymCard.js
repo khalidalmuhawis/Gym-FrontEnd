@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
+import NewGymModal from "./NewGymModal"
 
 const GymCard = props => {
   const gym = props.gym;
